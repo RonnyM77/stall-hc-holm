@@ -1,0 +1,9 @@
+{
+  "context": {
+    "form": {
+      "id": "fancy-site",
+      "author": "Joe Blogs",
+      "description": "Such a fancy site"
+    }
+  }
+}

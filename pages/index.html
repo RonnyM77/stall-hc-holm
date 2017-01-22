@@ -1,0 +1,35 @@
+---
+headline_1: Hvilken type hest er du interessert i?
+headline_2: Hvor mye ønsker du å bidra med?
+question_1: Innskuddsbeløp
+question_2: Månedsbeløp
+question_3: Epost
+submit: Send inn
+custom_array:
+  -
+    name: Varmblodshest
+  -
+    name: Kaldblodshest
+  -
+    name: Unghest
+  -
+    name: Løpshest
+...
+
+{% extends "base.html" %}
+
+{% block body %}
+
+<section id="top">
+  {% include "top.html" %}
+</section>
+
+<section class="text">
+  {% include "skjema.md" %}
+</section>
+
+<section class="text">
+  {% include "form.html" %}
+</section>
+
+{% endblock %}

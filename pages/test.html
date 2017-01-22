@@ -1,0 +1,27 @@
+---
+header_text: Lorem Ipsum
+custom_object:
+name: Lorem
+description: Ipsum
+custom_array:
+  -
+    name: Varmblodshest
+    id: id_1
+  -
+    name: Kaldblodshest
+    id: id_2
+  -
+    name: Unghest
+    id: id_3
+  -
+    name: Løpshest
+    id: id_4
+...
+<form>
+{% for item in custom_array %}
+  <div class="input_half">
+    <input name="{{ item.name }}" id="{{ item.name }}" type="checkbox">
+    <label for="{{ item.name }}">{{ item.name }}</label>
+  </div>
+{% endfor %}
+</form>

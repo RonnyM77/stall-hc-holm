@@ -1,0 +1,34 @@
+<form action="https://formspree.io/petter@suul.no" method="POST">
+  <h3>{{ headline_1 }}</h3>
+  <div class="input_group">
+    {% for item in custom_array %}
+      <div class="input_half">
+        <input name="{{ item.name }}" id="{{ item.name }}" type="checkbox">
+        <label for="{{ item.name }}">{{ item.name }}</label>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h3>{{ headline_2 }}</h3>
+
+  <div class="input_half">
+    <label>{{ question_1 }}</label>
+    <input type="text" name="{{ question_1 }}"></input>
+  </div>
+
+  <div class="input_half">
+    <label>{{ question_2 }}</label>
+    <input type="text" name="{{ question_2 }}"></input>
+  </div>
+
+  <div class="input_full">
+    <label for="_replyto">{{ question_3 }}</label>
+    <input type="email" name="_replyto">
+  </div>
+
+  <div class="input_full">
+    <input type="submit" value="{{ submit }}">
+    <input type="hidden" name="_next" value="/takk.html" onclick="submit_form()" />
+  </div>
+
+</form>
