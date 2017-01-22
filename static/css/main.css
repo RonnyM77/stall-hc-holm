@@ -18,7 +18,7 @@ section {
   padding: 1rem;
   background-color: #000; }
   section#top {
-    height: 65vh;
+    height: 40rem;
     color: #fff;
     position: relative; }
     section#top .background {
@@ -232,6 +232,7 @@ form {
     margin: 1rem;
     padding: 0rem; }
     section#top {
+      height: 20rem;
       padding: 1rem; }
 
   h1, h2, h3, h4, p, form, form .input_full {
