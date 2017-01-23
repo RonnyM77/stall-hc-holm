@@ -8,7 +8,8 @@ I det hele tatt er det topp treningsforhold og mang en storløpsvinner har vært
 Det er gratis parkering og stallen er merket med Stall HC Holm.
 
 Hans Christian Holm treffes på:
-Tlf: 99005353
+
+Tlf: 99005353  
 Mail: post@stallhcholm.no / hc.holm.1410@gmail.com
 
 {% endfilter %}
